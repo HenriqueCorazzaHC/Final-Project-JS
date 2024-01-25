@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/homework.css">
+    <link rel="stylesheet" href="dist/css/lightbox.css">
+    <script src = "js/homework.js"></script>
+	<script src = "dist/js/lightbox-plus-jquery.js"></script>
+</head>
+
+<body>
+    <header> 
+	<h1>GruMeC and Navy SEALS</h1>
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+</header>
+	<h2>Click on the images below</h2>
+  <a href="imgs/grumec1.jpg" data-lightbox="images" data-title="Caption 1">
+	<img class = "preview" alt = "Missão na mata" src = "imgs/grumec1.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+   </a>
+
+   <a href="imgs/grumec2.jpg" data-lightbox="images" data-title="Caption 1">
+	<img class = "preview" alt = "Missão no navio" src = "imgs/grumec2.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+    </a>
+
+	<a href="imgs/grumec3.jpg" data-lightbox="images" data-title="Caption 1">
+	<img class = "preview" src = "imgs/grumec3.jpg" alt = "Missão no oceano" onmouseover = "upDate(this)" onmouseout = "unDo()">
+    </a>
+
+    <a href="imgs/grumec4.jpg" data-lightbox="images" data-title="Caption 1">
+    <img class = "preview" alt = "Missão no bote" src = "imgs/grumec4.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+    </a>
+
+    <a href="imgs/navyImg1.jpg" data-lightbox="images" data-title="Caption 1">
+    <img class = "preview" alt = "Missão Red Wings" src = "imgs/navyImg1.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+    </a>
+
+    <a href="imgs/navyImg2.jpg" data-lightbox="images" data-title="Caption 1">
+    <img class = "preview" alt = "Missão Neptune Spears" src = "imgs/navyImg2.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+    </a>
+
+</body>
+</html>
+
